@@ -7,7 +7,27 @@
 
 ---
 
-This README.md was generated on 2024-04-23 by Yuting Vicky Lin (vicky.linyuting@gmail.com). Knit [Lin_et_al_MPB.Rmd](Lin_et_al_MPB.Rmd) to generate html and extract R code.
+
+
+This README.md was generated on 2024-04-23 by Yuting Vicky Lin (vicky.linyuting@gmail.com).
+
+Data and script to replicate analyses in Lin et al. (202X). Knit [Lin_et_al_MPB.Rmd](Lin_et_al_MPB.Rmd) to generate html and extract R code. If used in full or in part, please cite the original publication as well as the dataset on Dryad:
+
+Lin YV, Château PA, Nozawa Y, Wei C-L, Wunderlich RF, Denis V (202X) Environmental influence on coastal benthic communities in a complex setting. XXX
+
+Dataset: Lin, Yuting Vicky et al. (Forthcoming 2024). Data from: Environmental influence on coastal benthic communities in a complex setting [Dataset]. Dryad. https://doi.org/10.5061/dryad.j0zpc86nz
+
+A study from FRElab, Institute of Oceanography, National Taiwan University, TAIWAN
+
+Plain Language Summaries:
+
+漢語
+
+XXX
+
+English
+
+XXX
 
 
 1. **Author Information**
