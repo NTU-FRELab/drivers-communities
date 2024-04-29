@@ -3,7 +3,7 @@
 &nbsp; &nbsp; &nbsp; &nbsp;
 </p>
 
-# Data from: Environmental influence on coastal benthic communities in a complex setting
+# Data from: Drivers of coastal benthic communities in a complex environmental setting
 
 ---
 
@@ -13,9 +13,9 @@ This README.md was generated on 2024-04-23 by Yuting Vicky Lin (vicky.linyuting@
 
 Data and script to replicate analyses in Lin et al. (202X). Knit [Lin_et_al_MPB.Rmd](Lin_et_al_MPB.Rmd) to generate html and extract R code. If used in full or in part, please cite the original publication as well as the dataset on Dryad:
 
-Lin YV, Château PA, Nozawa Y, Wei C-L, Wunderlich RF, Denis V (202X) Environmental influence on coastal benthic communities in a complex setting. XXX
+Lin YV, Château PA, Nozawa Y, Wei C-L, Wunderlich RF, Denis V (202X) Drivers of coastal benthic communities in a complex environmental setting. XXX
 
-Dataset: Lin, Yuting Vicky et al. (Forthcoming 2024). Data from: Environmental influence on coastal benthic communities in a complex setting [Dataset]. Dryad. https://doi.org/10.5061/dryad.j0zpc86nz
+Dataset: Lin, Yuting Vicky et al. (Forthcoming 2024). Data from: Drivers of coastal benthic communities in a complex environmental setting [Dataset]. Dryad. https://doi.org/10.5061/dryad.j0zpc86nz
 
 A study from FRElab, Institute of Oceanography, National Taiwan University, TAIWAN
 
