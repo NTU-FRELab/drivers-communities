@@ -7,45 +7,24 @@
 
 ---
 
-
-
-This README.md was generated on 2024-04-23 by Yuting Vicky Lin (vicky.linyuting@gmail.com).
-
-Data and script to replicate analyses in Lin et al. (202X). Knit [Lin_et_al_MPB.Rmd](Lin_et_al_MPB.Rmd) to generate html and extract R code. If used in full or in part, please cite the original publication as well as the dataset on Dryad:
-
-Lin YV, Château PA, Nozawa Y, Wei C-L, Wunderlich RF, Denis V (202X) Drivers of coastal benthic communities in a complex environmental setting. XXX
-
-Dataset: Lin, Yuting Vicky et al. (Forthcoming 2024). Data from: Drivers of coastal benthic communities in a complex environmental setting [Dataset]. Dryad. https://doi.org/10.5061/dryad.j0zpc86nz
-
-A study from FRElab, Institute of Oceanography, National Taiwan University, TAIWAN
-
-Plain Language Summaries:
-
-漢語
-
-XXX
-
-English
-
-XXX
-
+This README.md was generated on 2024-05-23 by Yuting Vicky Lin (vicky.linyuting@gmail.com). 
 
 1. **Author Information**
 
 	+ First author
-		+ Name: Yuting Vicky Lin
+		+ Name: Dr. Yuting Vicky Lin
 		+ Institution: Institute of Oceanography, National Taiwan University, Taipei 10617, Taiwan
 
 	+ Second author
-		+ Name: Dr. Pierre-Alexandre Château
+		+ Name: Prof. Pierre-Alexandre Château
 		+ Institution: Department of Marine Environment and Engineering, National Sun Yat-Sen University, Kaohsiung 80420, Taiwan 
  		
 	+ Third author 
-		+ Name: Dr. Yoko Nozawa
+		+ Name: Prof. Yoko Nozawa
 		+ Institution: Tropical Biosphere Research Center, University of the Ryukyus, Okinawa 905-0227, Japan 
 		
 	+ Fourth author 
-		+ Name: Dr. Chih-Lin Wei
+		+ Name: Prof. Chih-Lin Wei
 		+ Institution: Institute of Oceanography, National Taiwan University, Taipei 10617, Taiwan
 			
 	+ Fifth author 
@@ -54,7 +33,7 @@ XXX
                              5INRAE, UR EABX, 33612 Cestas, France
 
 	+ Sixth & corresponding author 
-		+ Name: Dr. Vianney Denis
+		+ Name: Prof. Vianney Denis
 		+ Institution: Institute of Oceanography, National Taiwan University, Taipei 10617, Taiwan
 		+ Email: vianneydenis@ntu.edu.tw
 
@@ -65,7 +44,7 @@ XXX
 4. **Funding sources that supported the collection of the data**: Marine National Park of Taiwan, National Science and Technology Council of Taiwan, Ocean Affairs Council of Taiwan 
 
 5. **Recommended citation for this dataset**
-Lin YT, Château P-A, Nozawa Y, Wei C-L, Wunderlich RF, Denis V (2023), Data from: Environmental influence on coastal benthic communities in a complex setting, Dryad, Dataset, https://doi.org/????
+Lin YT, Château P-A, Nozawa Y, Wei C-L, Wunderlich RF, Denis V (2024), Data from: Drivers of coastal benthic communities in a complex environmental setting, Dryad, Dataset, https://doi.org/10.5061/dryad.j0zpc86nz
 
 [Data and R script are also available through the GitHub repository https://github.com/NTU-FRELab/drivers-communities in order to replicate our analyses]
 
@@ -84,7 +63,7 @@ Lin YT, Château P-A, Nozawa Y, Wei C-L, Wunderlich RF, Denis V (2023), Data fro
        + File 1 description: benthic cover estimates of the 433 sampling transects
 
    + File 2: Linetal_dataset_Env.csv
-       + File 2 description: data of 21 environmental drviers in the 433 sampling transects
+       + File 2 description: data of 21 environmental drivers in the 433 sampling transects
 
    + File 3: Linetal_dataset_Cor.csv
        + File 3 description: coordination and benthic information used to generate Figure 1b 
@@ -107,7 +86,7 @@ Lin YT, Château P-A, Nozawa Y, Wei C-L, Wunderlich RF, Denis V (2023), Data fro
 
 ### METHODOLOGICAL INFORMATION
 
-A detailed description of data acquisition and processing can be found in the published manuscript in the XXX (https://doi.org/XXX).
+A detailed description of data acquisition and processing can be found in the published manuscript in the Marine Pollution Bulletin (https://doi.org/10.1016/j.marpolbul.2024.116462).
 
 
 #### DATA-SPECIFIC INFORMATION
@@ -212,10 +191,25 @@ A detailed description of data acquisition and processing can be found in the pu
 
 5. Abbreviations used
   
-    + for major benthic categories: 
-      + SST: sea surface temperature
-      + SD: standard deviation
-      + DHW: degree heating week
+    + for environmental factors: 
+      + Mean_SST: Mean sea surface temperature
+      + SD_SST: Standard deviation of sea surface temperature
+      + Light_intensity: Light intensity
+      + Wave_exposure: Wave exposure
+      + Wave_height: Wave height
+      + Mean_chl_a: Mean chlorophyll a
+      + SD_chl_a: Standard deviation of chlorophyll a
+      + DHW: Degree heating week
+      + DHW_recovery: Recovery time from the last extreme heat event
+      + Typhoon frequency: Number of severe typhoons in the last decade
+      + Typhoon disturbance: Maximum wind speed for the last severe typhoon
+      + Typhoon recovery: Recovery time from the last severe typhoon
+      + Anthropogenic_land_use: Anthropogenic land use
+      + Forest_land_use: Forest land use
+      + Population_density: Population density
+      + Tourist_visitors: Tourist visits
+      + Unstable_substrate_cover: Unstable substrate cover
+      + Management_status: Management status 
 
 
 
@@ -250,11 +244,18 @@ A detailed description of data acquisition and processing can be found in the pu
   
     + for variables: 
       + 1: CCA Community 
-      + 2: Turf & Stony Cooral Community
+      + 2: Turf & Stony Coral Community
       + 3: Turf Community
       + 4: Digitate Community
       + 5: Bushy Community
       + y: the vertical position of the pie chart
-      + x: the horizental position of the pie chart
+      + x: the horizontal position of the pie chart
       + Label1: the number of sampling locations used in Figure 1a
       + Label2: the number of sampling locations used in Figure 1b
+
+
+## Usage notes
+
+R is required to open Lin_et_al_MPB.Rmd; the script was created using version 4.1.2. After opening the file, you can knit it to generate an HTML file and extract the R code. When knitting Lin_et_al_MPB.Rmd, make sure you have the following files available: Linetal_dataset_Benthic.csv, Linetal_dataset_Env.csv, Linetal_dataset_Cor.csv, Linetal_dataset_TW.shp, Linetal_dataset_TW.cpg, Linetal_dataset_TW.dbf, Linetal_dataset_TW.prj, and Linetal_dataset_TW.shx. Linetal_dataset_TW.cpg, Linetal_dataset_TW.dbf, Linetal_dataset_TW.prj, and Linetal_dataset_TW.shx are the companion files for Linetal_dataset_TW.shp.
+
+Microsoft Excel can be used to view Linetal_dataset_Benthic.csv, Linetal_dataset_Env.csv, and Linetal_dataset_Cor.csv.
