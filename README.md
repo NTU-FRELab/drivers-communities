@@ -48,6 +48,15 @@ Lin YT, Château P-A, Nozawa Y, Wei C-L, Wunderlich RF, Denis V (2024), Data fro
 
 [Data and R script are also available through the GitHub repository https://github.com/NTU-FRELab/drivers-communities in order to replicate our analyses]
 
+## Plain language summaries
+
+### English
+
+This research investigated how different environmental factors affect communities of marine organisms living on the seabed in coastal areas (i.e., benthic communities), which is important for deciding which factors need to be controlled. We collected data from 433 transects around Taiwan, including information on benthic composition and 21 environmental factors describing the physical environment, the chemicals in the water, the disturbance history and human activities on land. By analyzing these data, we were able to identify five types of communities dominated by different types of organisms, including crustose coralline algae, turf algae, stony corals, and digitate and bushy soft corals. We found that factors such as light intensity, nitrite levels, and population density were the most important in determining community types. Surprisingly, historical factors such as typhoons and abnormally high temperature had less influence. We also discovered that turf algae are widely distributed in Taiwan and are strongly promoted by human activities on land and nutrient enrichment. This suggests that human activities are making benthic communities in Taiwan more similar to each other, which could mask the effects of climate change and natural differences between regions. To protect these communities in Taiwan, it is important to control nutrient levels in the water and reduce pollution from the land. This will help these communities remain resilient in the face of climate change.
+
+### Chinese (中文)
+
+此研究探討了不同的環境因子如何影響生活在沿岸海床上的海洋生物群聚（即是底棲生物群聚）。這對於決定哪些因子需要被控制至關重要。此研究從台灣周圍的433條穿越線收集了數據，包括底棲生物群聚和21個環境因子（概括了物理環境、水中化學物質、歷史事件的干擾和陸地上的人類活動）的資料。通過分析這些數據，此研究確定了五種類型的群聚，這些群聚由不同類型的生物主導，包含殼狀珊瑚藻、絲狀藻類、石珊瑚、指狀和叢狀軟珊瑚。此研究發現，光照強度、亞硝酸鹽濃度和人口密度等因素在決定不同類型的群聚時相當重要。令人驚訝的是，颱風和溫度異常暖化等歷史事件的干擾影響並不大。此研究還發現，台灣周圍的絲狀藻類非常豐富，這主要是受到陸地上人類活動和水中營養鹽過高的強烈影響。這表示人類的行為正在使台灣周圍的群聚組成變得更加相似。這些人為活動的影響也可能掩蓋了底棲群聚對氣候變化的反應和地區間的自然差異。為了保護台灣的這些群聚，關鍵是要控制海水中的營養鹽、並減少陸地污染。這將有助於這些群聚在應對氣候變化時保持韌性。
 
 ## DESCRIPTION OF THE DATA AND FILE STRUCTURE
 
